@@ -49,6 +49,29 @@ class Game{
 
         if(keyDown(RIGHT_ARROW)&& player.index !== null){
           player1.changeImage(pic1R);
+            
+//             var rand = Math.round(random(1,9));
+//           switch(rand){
+//             case 1: player1.changeImage(pic1R);
+//             break;
+//             case 2: player1.changeImage(pic2R);
+//             break;
+//             case 3: player1.changeImage(pic3R);
+//             break;
+//             case 4: player1.changeImage(pic4R);
+//             break;
+//             case 5: player1.changeImage(pic5R);
+//             break;
+//             case 6: player1.changeImage(pic6R);
+//             break;
+//             case 7: player1.changeImage(pic7R);
+//             break;
+//             case 8: player1.changeImage(pic8R);
+//             break;
+//             case 9: player1.changeImage(pic9R);
+//             break;
+//             default:break; 
+// } 
       }
 
        // if(player1.isTouching(OdragonR) || player1.isTouching(ODragonL)){
